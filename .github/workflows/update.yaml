@@ -1,0 +1,37 @@
+name: Update vendor_google_device
+
+on: [workflow_dispatch]
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install python dependencies
+      run: pip2 install --user protobuf pyyaml gitpython
+
+    - name: Update config file
+      run: python update_config.py
+
+    - name: Run android-prepare-vendor for each device
+      run: python execute_apv.py
+
+    - name: Git diff
+      run: git diff
+
+    - name: Create pull request
+      uses: peter-evans/create-pull-request@v3
+      with:
+        commit-message: Automated update of vendor_google_device
+        committer: GitHub <noreply@github.com>
+        author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+        title: 'Update vendor_google_device'
+        labels: |
+          automated pr
+        assignees: dan-v
+        reviewers: dan-v
+        draft: false
+
+    - name: Check output
+      run: echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
