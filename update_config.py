@@ -109,12 +109,7 @@ def get_build_id_to_aosp_tag_mapping(aosp_tags):
 default_android_version = "10.0"
 config_file = "config.json"
 all_devices = [
-    "marlin", "sailfish",
-    "walleye", "taimen",
-    "blueline", "crosshatch",
-    "sargo", "bonito",
-    "flame", "coral",
-    "sunfish"
+    "marlin", "sailfish"
 ]
 image_url = "https://developers.google.com/android/images"
 ota_url = "https://developers.google.com/android/ota"
