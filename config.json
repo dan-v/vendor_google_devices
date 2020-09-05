@@ -11,7 +11,7 @@
       "ota_sha256": "23002a57bba0c40219799af473948b878400f0a4efc848d2ef528b132c6ac2ce"
     },
     "sailfish": {
-      "build_id": "QP1A.191005.007.A3",
+      "build_id": "QP1A.191005.007.oops",
       "aosp_tag": "android-10.0.0_r17",
       "factory_url": "https://dl.google.com/dl/android/aosp/sailfish-qp1a.191005.007.a3-factory-d4552659.zip",
       "factory_sha256": "d455265945bb936a653730031af7d7a4aba70dc0c775024666a53491c9833b61",
