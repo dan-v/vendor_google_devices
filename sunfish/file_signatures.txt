@@ -1,6 +1,6 @@
-f1b3ee8d5e001174dc17db0ec45bd9bf40622e8d  vendor/google_devices/sunfish/Android.mk
-c1765c7eeef136b7c0071b6822fc2173399ba10b  vendor/google_devices/sunfish/AndroidBoardVendor.mk
-abf01d26a059348b3f8980ab9243b0f85e1676d8  vendor/google_devices/sunfish/BoardConfigVendorPartial.mk
+e68033cc41bed7eead3153d322d2aa77bd04aba9  vendor/google_devices/sunfish/Android.mk
+10b9ce7902c57abdc000157c7204fb7555d71b57  vendor/google_devices/sunfish/AndroidBoardVendor.mk
+73ed9320ac5c47d372968fcce45e8a5c8f1a4538  vendor/google_devices/sunfish/BoardConfigVendorPartial.mk
 2140da9fc003831cef6b4806ccdf3a85898b9815  vendor/google_devices/sunfish/product/app/QtiTelephonyService/QtiTelephonyService.apk
 290d6e1bb4c256da708454009b4f996557a7bad4  vendor/google_devices/sunfish/product/app/datastatusnotification/datastatusnotification.apk
 23e600e751ad9fc0d1dcf4a783a5c29a7373b30f  vendor/google_devices/sunfish/product/app/uceShimService/uceShimService.apk
@@ -53,9 +53,9 @@ d5cee7d59398c8f1faac6cd2c27dd7861052b81a  vendor/google_devices/sunfish/product/
 46626f281589a06008039eeb3c36c6116a51482e  vendor/google_devices/sunfish/product/lib64/vendor.qti.hardware.data.iwlan@1.0.so
 96ccbf2eada3c44b20f61d743205623261c51a66  vendor/google_devices/sunfish/product/priv-app/ims/ims.apk
 3735988fd56c7d8d68b262644301379e6912cd5b  vendor/google_devices/sunfish/product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
-9215e0fc59a26e36bfa240a763f78f8e39b1c799  vendor/google_devices/sunfish/proprietary/BoardConfigVendor.mk
+673627010d295eee69c0bb1121504615519da184  vendor/google_devices/sunfish/proprietary/BoardConfigVendor.mk
 56f1f79a88db709a0c7ed5c507b14c55976d6f32  vendor/google_devices/sunfish/proprietary/bin/move_time_data.sh
-dd01c90a7a83dc2818d202157ff4fb0339946138  vendor/google_devices/sunfish/proprietary/device-vendor.mk
+b41477ae961788b4b11c0bfd34e952ca3eb5d0b9  vendor/google_devices/sunfish/proprietary/device-vendor.mk
 d66820631a3ee4edff80e584f3976a3919f5e93a  vendor/google_devices/sunfish/proprietary/framework/com.qti.snapdragon.sdk.display.jar
 198c8b722ed2017669d3a13fda23ab7447e36493  vendor/google_devices/sunfish/proprietary/framework/vendor.qti.hardware.alarm-V1.0-java.jar
 15d7490580ac371c5f95d76b3b191e695778f8d6  vendor/google_devices/sunfish/proprietary/framework/vendor.qti.hardware.data.latency-V1.0-java.jar
@@ -98,7 +98,7 @@ e50fb0c15428de6b6fe070156b37ea52227029a3  vendor/google_devices/sunfish/radio/tz
 bb3a372962a149402f25de3555db2736058347cd  vendor/google_devices/sunfish/radio/uefisecapp.img
 92714f5318bd27a38dbf4d9b76cd72f970b21a08  vendor/google_devices/sunfish/radio/xbl.img
 bd088235c82da6ce4e45db5fa509cc47db96e68e  vendor/google_devices/sunfish/radio/xbl_config.img
-748d89162f02be3f49040561a602d7cd57df6d88  vendor/google_devices/sunfish/sunfish-vendor-blobs.mk
+cf401409ece4505b6c53ab514ecfbfa083fc6f8c  vendor/google_devices/sunfish/sunfish-vendor-blobs.mk
 ef18a79316bed4130f86555d46eb9362398414bf  vendor/google_devices/sunfish/vendor-board-info.txt
 66af0cd0bd75045d5dd30c1e11f93ec96a743fa0  vendor/google_devices/sunfish/vendor/app/CACertService/CACertService.apk
 4432941ce7474abdd8e0455ec3d4dc0ef2facfbb  vendor/google_devices/sunfish/vendor/app/CACertService/oat/arm64/CACertService.odex
